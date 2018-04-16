@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Aditya Niloi | About</title>
+    <title>Aditya Niloi | Portfolio</title>
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css" />
@@ -27,22 +27,57 @@
         </a>
         <div class="nav">
             <ul>
-                <li><a href="home.html">Portfolio</a></li>
+                <li><a href="home.html" class="selected">Portfolio</a></li>
                 <li><a class="hide" href="resume.pdf" target='_blank'>Resume</a></li>
                 <li><a class="hide" href="http://blog.adityaniloi.com/" target='_blank'>Blog</a></li>
-                <li><a href="about.html" class="selected">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </header>
     <div id="wrapper">
-        <section>
-            <img src='img/aditya.jpg' alt='Photograph of Aditya Niloi' class='profile-photo'>
-            <h3>About</h3>
-            <p>I am a creative visionary and problem-solver with a degree in Political Science. My background in leadership and youth mentoring fuels me to design solutions for an awesome, responsible world. When I'm not contemplating my ideal utopia, I
-                am most likey drawing Simpsons' characters, rapping along to Lupe Fiasco, skateboarding around the neighborhood, or looking up YouTube tutorials to feed my insatiable desire for learning.</p>
-            <!-- <p>I am inspired by creativity, fueled by positivity, and driven by pure universal energy.</p> -->
-        </section>
+        <ul class="carousel carousel-slider">
+            <li>
+                <div class="carousel-item">
+                    <a href="http://ballacademy.herokuapp.com/" target="_blank">
+                        <img src="img/ballacademy.png" alt="Ball Academy">
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="carousel-item">
+                    <a href="http://codepen.io/android92/full/KVJvLx/" target="_blank">
+                        <img src="img/rktribute.png" alt="Robert Kirkman Tribute">
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="carousel-item">
+                    <a href="https://goo.gl/FRKG4Z" target="_blank">
+                        <img src="img/nupolicy-deck.png" alt="NuPolicy Deck">
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="carousel-item">
+                    <a href="https://move-planner.herokuapp.com/" target="_blank">
+                        <img src="img/move-planner.png" alt="Move Planner">
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="carousel-item">
+                    <a href="https://prezadito.github.io/RQG_ATLA-Iroh/" target="_blank">
+                        <img src="img/rqg-iroh.png" alt="Random Quote Generator: Uncle Iroh">
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <div class="browse">
+            <a class="btn left amber darken-4"><i class="material-icons">navigate_before</i></a>
+            <h6 class="tip-center">Swipe | Browse | Explore</h6>
+            <a class="btn right light-blue darken-2"><i class="material-icons">navigate_next</i></a>
+        </div>
     </div>
     <footer>
         <a href="https://twitter.com/prezadito" target='_blank'><img src="img/twitter-wrap.png" alt="twitter PrezAdito" class='social-icon'></a>
@@ -55,6 +90,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/index.js"></script>
+
 </body>
 
 </html>

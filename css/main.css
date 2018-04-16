@@ -3,25 +3,25 @@ GENERAL
 ************************************/
 
 body {
-  font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 #wrapper {
-  max-width: 940px;
-  margin: auto;
-  padding: 0 5%;
+    max-width: 940px;
+    margin: auto;
+    padding: 0 5%;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 h3 {
-  margin: 0 0 1em 0;
+    margin: 0 0 1em 0;
 }
 
 
@@ -30,58 +30,56 @@ HEADING
 ************************************/
 
 header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
 }
 
 #logo {
-  text-align: center;
-  margin: 0;
+    text-align: center;
+    margin: 0;
 }
 
 h1 {
-  font-family: 'Bungee Shade', cursive;
-  margin: 15px 0;
-  font-size: 1.75em;
-  font-weight: bolder;
-  line-height: 0.8em;
+    font-family: 'Bungee Shade', cursive;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: bolder;
+    line-height: 0.8em;
 }
 
 h2 {
-  font-size: 1em;
-  margin: -5px 0 0;
-  font-weight: normal;
+    font-size: 1em;
+    margin: -5px 0 0;
+    font-weight: normal;
 }
-
 
 
 /************************************
 NAVIGATION
 ************************************/
 
-nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
+.nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
+.nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
 }
 
-nav li {
-  display: inline-block;
+.nav li {
+    display: inline-block;
 }
 
-nav a {
-  font-weight: 800;
-  padding: 15px 10px;
+.nav a {
+    font-weight: 800;
+    padding: 15px 10px;
 }
-
 
 
 /************************************
@@ -89,46 +87,34 @@ FOOTER
 ************************************/
 
 footer {
-  font-size: 0.75em;
-  text-align: center;
-  clear: both;
-  padding-top: 50px;
-  color: #2E5077;
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #2E5077;
 }
 
 .social-icon {
-  width: 40px;
-  height: 40px;
-  margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
 }
-
 
 
 /************************************
 PAGE: PORTFOLIO
 ************************************/
 
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+ul.carousel {
+    border-bottom: .25em solid #2E5077;
 }
 
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #D7E8BA;
-  /*color: #FFA630;*/
+.browse {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
-
-#gallery li a p {
-  margin: 0;
-  padding: 5%;
-  font-size: 1em;
-  color: #2E5077;
-}
-
 
 
 /************************************
@@ -136,13 +122,12 @@ PAGE: ABOUT
 ************************************/
 
 .profile-photo {
-  clear: both;
-  display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
-  border-radius: 100%;
+    clear: both;
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
 }
-
 
 
 /************************************
@@ -150,70 +135,88 @@ PAGE: CONTACT
 ************************************/
 
 .contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
 }
 
 .contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
 }
 
 .contact-info li.phone a {
-  background-image: url('../img/phone.png');
+    background-image: url('../img/phone.png');
 }
 
 .contact-info li.mail a {
-  background-image: url('../img/mail.png');
+    background-image: url('../img/mail.png');
 }
 
 .contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
+    background-image: url('../img/twitter.png');
 }
+
 
 /************************************
 COLORS
 ************************************/
 
+
 /* site body */
+
 body {
-  background-color: #fff;
-  color: #611C35;
+    background-color: #fff;
+    color: #611C35;
 }
+
 
 /* green header */
+
 header {
- background: #2E5077;
- border-color: #FFA630;
+    background: #2E5077;
+    border-color: #FFA630;
 }
+
 
 /* nav background on mobile */
-nav {
-  background: #2d3a3a;
+
+.nav {
+    background: #2d3a3a;
 }
+
 
 /* logo text */
-h1, h2 {
-  color: #fff;
+
+h1,
+h2 {
+    color: #fff;
 }
+
 
 /* links */
+
 a {
-  color: #2E5077;
+    color: #2E5077;
 }
+
 
 /* nav link */
-nav a, nav a:visited {
-  color: #fff;
+
+.nav a,
+.nav a:visited {
+    color: #fff;
 }
 
+
 /* selected nav link */
-nav a.selected, nav a:hover {
-  color: #4DA1A9;
+
+.nav a.selected,
+.nav a:hover {
+    color: #4DA1A9;
 }
